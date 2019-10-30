@@ -1,0 +1,9 @@
+# HTTP Server
+server:  
+  port: 8761   # HTTP port
+
+#eureka not registry in other eureka server
+eureka:  
+  client:
+    register-with-eureka: false
+    fetch-registry: false
