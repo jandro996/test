@@ -1,0 +1,23 @@
+# HTTP Server
+server:  
+  port: 3335   # HTTP port
+
+# Spring properties
+spring:  
+  application:
+    name: microservice-hibernate
+  datasource:
+      url:  jdbc:postgresql://192.168.6.121:5432/dev
+      username: postgres
+      password: EF5WfrV3qVaG
+      class: com.mysql.jdbc.Driver
+  jpa:
+      properties:
+          hibernate:
+              dialect: org.hibernate.dialect.MySQL5Dialect
+
+logging:  
+  file: logs/${spring.application.name}.log
+  level:
+    org.springframework.cloud: 'DEBUG'
+    com.atsistemas: 'DEBUG'
