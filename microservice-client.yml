@@ -1,0 +1,14 @@
+# HTTP Server
+server:  
+  port: 3340   # HTTP port
+
+# Spring properties
+spring:  
+  application:
+    name: microservice-client
+
+logging:  
+  file: logs/${spring.application.name}.log
+  level:
+    org.springframework.cloud: 'DEBUG'
+    com.atsistemas: 'DEBUG'
