@@ -1,0 +1,22 @@
+# HTTP Server
+server:  
+  port: 3334   # HTTP port
+
+# Spring properties
+spring:  
+  application:
+    name: microservice-mybatis
+  datasource:
+      url:  jdbc:postgresql://192.168.6.121:5432/dev
+      username: postgres
+      password: EF5WfrV3qVaG
+      class: com.mysql.jdbc.Driver
+
+logging:  
+  file: logs/${spring.application.name}.log
+  level:
+    org.springframework.cloud: 'DEBUG'
+    com.atsistemas: 'DEBUG'
+   
+mybatis:
+ config-location: classpath:mybatis-config.xml
