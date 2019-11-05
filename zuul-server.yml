@@ -4,4 +4,8 @@ server:
 zuul:
   routes:
     client:
-      serviceId: microservice-client
+      serviceId: MICROSERVICE-CLIENT
+    jpa:
+      serviceId: MICROSERVICE-HIBERNATE
+    mybatis:
+      serviceId: MICROSERVICE-MYBATIS
