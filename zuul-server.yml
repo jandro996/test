@@ -3,6 +3,5 @@ server:
   
 zuul:
   routes:
-    microservice-client:
-      path: /client/**
+    client:
       serviceId: microservice-client
