@@ -9,3 +9,11 @@ zuul:
       serviceId: MICROSERVICE-HIBERNATE
     mybatis:
       serviceId: MICROSERVICE-MYBATIS
+      
+      
+app:
+  serviceurl: https://localhost:8080/login/cas
+  serviceticketvalidator: https://sso.dreamgenics.com/cas
+  serviceauthenticationentrypoint: https://sso.dreamgenics.com/cas/login
+      
+
