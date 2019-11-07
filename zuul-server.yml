@@ -1,6 +1,11 @@
 server:
   port: 8080 #the default port used for zuul service
-  
+  ssl:
+    key-store-type : PKCS12 # The format used for the keystore 
+    key-store: classpath:keystore/keystore.p12 # The path to the keystore containing the certificate
+    key-store-password: toor_Dreamgenics # The password used to generate the certificate
+    key-alias: tomcat # The alias mapped to the certificate
+
 zuul:
   routes:
     client:
