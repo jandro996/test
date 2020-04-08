@@ -18,6 +18,8 @@ zuul:
       serviceId: MICROSERVICE-HIBERNATE
     mybatis:
       serviceId: MICROSERVICE-MYBATIS
+    web-app:
+      serviceId: WEB-APP
       
       
 app:
