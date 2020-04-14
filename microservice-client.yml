@@ -12,3 +12,8 @@ logging:
   level:
     org.springframework.cloud: 'DEBUG'
     com.atsistemas: 'DEBUG'
+    
+ app:
+  serviceurl: http://localhost:8080/login/cas
+  serviceticketvalidator: https://sso.dreamgenics.com/cas
+  serviceauthenticationentrypoint: https://sso.dreamgenics.com/cas/login
