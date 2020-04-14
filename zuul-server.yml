@@ -26,8 +26,12 @@ hystrix:
             execution:
                 timeout:
                     enabled: false
+                    
+                    
+ribbon: 
+  ReadTimeout: 10000
       
-      
+    
 app:
   serviceurl: http://localhost:8080/login/cas
   serviceticketvalidator: https://sso.dreamgenics.com/cas
