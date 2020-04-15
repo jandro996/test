@@ -10,7 +10,7 @@ server:
 #  require-ssl: true #Since we are using Spring Security enabled application, let's configure it to accept only HTTPS requests
 
 zuul:
-  sensitiveHeaders: Cookie,Set-Cookie
+  sensitiveHeaders: Cookie,Set-Cookie,Authorization
   routes:
     client:
       serviceId: MICROSERVICE-CLIENT
