@@ -8,8 +8,8 @@ spring:
     name: microservice-hibernate
   datasource:
       url:  jdbc:postgresql://192.168.6.121:5432/dev
-      username: postgres
-      password: EF5WfrV3qVaG
+      username: "{cipher}d30700b168278385d7f525291a05b7d1db8307bebb63b90484fcf334f28ce92d"
+      password: "{cipher}5ca273623c13e8d176907c698e529d282b61ed2267e96cce65ffc63305a49d70"
       class: com.mysql.jdbc.Driver
   jpa:
       properties:
