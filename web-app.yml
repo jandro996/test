@@ -6,9 +6,3 @@ server:
 spring:  
   application:
     name: web-app
-
-logging:  
-  file: logs/${spring.application.name}.log
-  level:
-    org.springframework.cloud: 'DEBUG'
-    com.atsistemas: 'DEBUG'
