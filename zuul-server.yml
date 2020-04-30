@@ -37,5 +37,10 @@ app:
   serviceurl: http://localhost:8080/login/cas
   serviceticketvalidator: https://sso.dreamgenics.com/cas
   serviceauthenticationentrypoint: https://sso.dreamgenics.com/cas/login
+  
+# Spring properties
+spring:  
+  application:
+    name: zuul
       
 
