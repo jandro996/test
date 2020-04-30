@@ -39,7 +39,7 @@ app:
   serviceauthenticationentrypoint: https://sso.dreamgenics.com/cas/login
   
 # Spring properties
-spring:  
+spring:
   application:
     name: zuul
       
