@@ -21,6 +21,8 @@ zuul:
       serviceId: MICROSERVICE-MYBATIS
     web-app:
       serviceId: WEB-APP
+    projectmanagement:
+      serviceId: MICROSERVICE-PROJECTMANAGEMENT
 hystrix:
     command:
         default:
