@@ -8,4 +8,4 @@ spring:
     name: microservice-projectmanagement
     
 mybatis:
- config-location: classpath:mybatis-config.xml
+  config-location: classpath:mybatis-config.xml
