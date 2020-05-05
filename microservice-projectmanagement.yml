@@ -6,3 +6,6 @@ server:
 spring:  
   application:
     name: microservice-projectmanagement
+    
+mybatis:
+ config-location: classpath:mybatis-config.xml
