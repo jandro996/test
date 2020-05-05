@@ -23,6 +23,8 @@ zuul:
       serviceId: WEB-APP
     projectmanagement:
       serviceId: MICROSERVICE-PROJECTMANAGEMENT
+    recurrence:
+      serviceId: RECURRENCE-MICROSERVICE      
 hystrix:
     command:
         default:
