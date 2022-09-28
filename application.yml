@@ -1,5 +1,4 @@
-
-spring:  
+spring:
   datasource:
       url:  jdbc:postgresql://192.168.6.121:5432/dev
       username: "{cipher}d30700b168278385d7f525291a05b7d1db8307bebb63b90484fcf334f28ce92d"
